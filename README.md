@@ -3,8 +3,11 @@
 #### Android中TextInput allowFontScaling={false}对 占位符placeholder的文字大小无效，还是会跟随系统字体大小变化。
 ---
 
-## 采取办法为：
+## 采取办法：
 
 #### 通过修改TextInput的render方法将style中的fontSize缩小为系统字体大小缩放的倍数即可
 ---
+
+## 使用方式：
+#### import index.js -> 项目目录中的index.js 和 index.ios.js
 

@@ -14,3 +14,10 @@ npm install react-native-fixed-fontsize --save
 yarn add react-native-fixed-fontsize
 ```
 项目目录中的index.js 和 index.ios.js 导入即可
+
+## 注
+上述办法测试于0.48.4版本，如不适用可在入口文件添加
+```
+Text.defaultProps.allowFontScaling = false;
+TextInput.defaultProps.allowFontScaling = () => false;
+```
